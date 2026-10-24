@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#100609">
+<title>RG GAMER BOY FF KEYS</title>
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+<style>
+*{box-sizing:border-box}
+:root{--green:#00f5a8;--cyan:#00eaff;--white:#eaffff;--muted:#9db9b5}
+html,body{margin:0;min-height:100%;background:#010302;color:var(--white);font-family:Arial,Helvetica,sans-serif}
+body{min-height:100vh;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.16;background-image:radial-gradient(rgba(0,255,170,.8) 1px,transparent 1px);background-size:38px 38px}
+.glow{position:fixed;width:420px;height:420px;border-radius:50%;pointer-events:none;filter:blur(90px)}
+.glow.one{top:-180px;left:50%;transform:translateX(-50%);background:rgba(0,255,130,.1)}
+.glow.two{right:-180px;bottom:-250px;background:rgba(0,234,255,.07)}
+.red-bottom-effect{position:fixed;left:50%;bottom:-170px;transform:translateX(-50%);width:760px;height:300px;border-radius:50%;pointer-events:none;z-index:0;background:rgba(255,0,0,.12);filter:blur(80px)}
+
+.second-wait-page{position:fixed;inset:0;z-index:10000;display:none;place-items:center;padding:22px;background:radial-gradient(circle at 50% 15%,rgba(0,245,168,.12),transparent 30%),#010302}
+.wait-page{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;padding:22px;background:radial-gradient(circle at 50% 15%,rgba(0,245,168,.12),transparent 30%),#010302}
+.wait-card{width:min(560px,100%);padding:40px 22px 30px;text-align:center;border:1px solid rgba(0,245,168,.25);border-radius:30px;background:rgba(7,18,14,.86);backdrop-filter:blur(16px);box-shadow:0 25px 80px rgba(0,0,0,.55),0 0 50px rgba(0,245,168,.08)}
+.wait-icon{width:88px;height:88px;margin:0 auto 24px;display:grid;place-items:center;border-radius:25px;font-size:42px;background:linear-gradient(145deg,#13f5ad,#00bb48);box-shadow:0 0 30px rgba(0,255,90,.3)}
+.wait-title{color:var(--green);font-size:clamp(30px,7vw,48px);font-weight:950}
+.wait-text{margin-top:10px;color:var(--muted);font-size:18px}
+.timer-circle{width:116px;height:116px;margin:28px auto 24px;display:grid;place-items:center;border:2px solid var(--green);border-radius:50%;color:#eaffff;font-size:42px;font-weight:900;box-shadow:0 0 28px rgba(0,245,168,.15)}
+.continue-btn{width:min(390px,100%);height:64px;border:2px solid var(--green);border-radius:16px;background:rgba(0,245,168,.08);color:var(--green);font-size:20px;font-weight:900;cursor:pointer;transition:.2s}
+.continue-btn:disabled{opacity:.4;cursor:not-allowed}
+.continue-btn:not(:disabled):hover{background:rgba(0,245,168,.16);box-shadow:0 0 28px rgba(0,245,168,.15)}
+.wait-status{margin-top:14px;color:#79e9cf;font-size:13px}
+.app{position:relative;isolation:isolate;width:min(100%,1080px);min-height:100vh;margin:0 auto;padding:54px 22px 64px;text-align:center}
+.badge{display:inline-flex;align-items:center;gap:8px;padding:8px 15px;border:1px solid rgba(0,245,168,.35);border-radius:999px;background:rgba(0,245,168,.06);color:#baffea;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green);animation:pulse 1.6s infinite}
+.logo{width:188px;height:188px;margin:30px auto 38px;border-radius:48px;display:grid;place-items:center;background:linear-gradient(145deg,#13f5ad,#00bb48);border:1px solid rgba(255,255,255,.12);box-shadow:0 0 35px rgba(0,255,90,.5),0 0 100px rgba(0,255,90,.12);animation:float 4s ease-in-out infinite}
+.key{width:94px;height:34px;background:#ffd51a;border-radius:20px 7px 7px 20px;transform:rotate(-42deg);position:relative;filter:drop-shadow(0 5px 5px #9a7200)}
+.key:before{content:"";position:absolute;right:-12px;top:-22px;width:51px;height:51px;border-radius:50%;background:#ffd51a;border:2px solid #d9a900}
+.key:after{content:"";position:absolute;left:11px;bottom:-17px;width:38px;height:17px;background:linear-gradient(90deg,#ffd51a 0 43%,transparent 43% 58%,#ffd51a 58% 100%)}
+h1{margin:0;font-size:clamp(34px,6vw,70px);line-height:1.02;font-weight:950;letter-spacing:-2px}
+.brand{margin-top:22px;font-size:clamp(22px,3.7vw,44px);font-weight:900;color:var(--cyan);text-shadow:0 0 22px rgba(0,234,255,.2)}
+.card{width:min(860px,100%);margin:56px auto 0;padding:34px 22px 28px;border:1px solid rgba(0,245,168,.22);border-radius:30px;background:rgba(7,18,14,.76);backdrop-filter:blur(14px);box-shadow:inset 0 1px rgba(255,255,255,.05),0 25px 70px rgba(0,0,0,.4)}
+.available{font-size:clamp(28px,4.5vw,54px);font-weight:950;color:var(--green)}
+.prompt{margin-top:12px;color:var(--muted);font-size:clamp(16px,2.2vw,22px)}
+.generate{width:min(720px,100%);height:92px;margin:34px auto 0;border:2px solid var(--green);border-radius:22px;background:linear-gradient(180deg,rgba(0,245,168,.09),rgba(0,245,168,.025));color:var(--green);font-size:clamp(23px,3.5vw,38px);font-weight:950;letter-spacing:1px;cursor:pointer;transition:.18s}
+.generate:hover{background:rgba(0,245,168,.13);box-shadow:0 0 35px rgba(0,245,168,.18)}
+.generate:active{transform:scale(.975)}
+.result{display:none;width:min(720px,100%);margin:22px auto 0;padding:20px 18px;border-radius:18px;background:linear-gradient(180deg,#06120e,#020906);border:1px solid rgba(0,245,168,.42);font-size:clamp(18px,3vw,28px);font-weight:900;letter-spacing:1.5px;word-break:break-all;box-shadow:inset 0 1px rgba(255,255,255,.04),0 10px 30px rgba(0,0,0,.22)}
+.actions{display:none;justify-content:center;gap:10px;margin-top:13px}
+.small{min-width:190px;padding:14px 25px;border-radius:12px;border:1px solid rgba(0,234,255,.45);background:linear-gradient(180deg,#071a16,#06100e);color:#bffff4;font-weight:900;letter-spacing:.4px;cursor:pointer;transition:.18s;box-shadow:0 8px 24px rgba(0,0,0,.2)}
+.small:hover{background:#0b211c;box-shadow:0 0 22px rgba(0,234,255,.12)} .small:active{transform:scale(.97)}
+.status{min-height:23px;margin-top:12px;color:#79e9cf;font-size:14px}
+.features{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:22px auto 0}
+.feature{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.035);color:#9eb8b5;font-size:12px;border:1px solid rgba(255,255,255,.07)}
+.footer{margin-top:30px;color:#5e7774;font-size:12px}
+
+.unlock-box{display:none;width:min(720px,100%);margin:24px auto 0;padding:24px 18px;border:1px solid rgba(0,234,255,.32);border-radius:20px;background:linear-gradient(180deg,rgba(0,234,255,.055),rgba(0,234,255,.018));box-shadow:inset 0 1px rgba(255,255,255,.035)}
+.unlock-title{font-size:clamp(20px,3vw,28px);font-weight:900;color:var(--cyan)}
+.unlock-text{margin:8px 0 16px;color:var(--muted);font-size:14px}
+.key-input{width:100%;height:60px;padding:0 16px;border:1px solid rgba(0,245,168,.34);border-radius:14px;outline:none;background:#020906;color:var(--white);font-size:16px;text-align:center;letter-spacing:.5px;transition:.18s}
+.key-input:focus{border-color:var(--green);box-shadow:0 0 20px rgba(0,245,168,.1)}
+.unlock-btn{width:100%;height:60px;margin-top:12px;border:1px solid var(--cyan);border-radius:14px;background:linear-gradient(180deg,rgba(0,234,255,.12),rgba(0,234,255,.045));color:var(--cyan);font-weight:950;font-size:16px;letter-spacing:.5px;cursor:pointer;transition:.18s;box-shadow:0 8px 25px rgba(0,0,0,.18)}
+.unlock-btn:hover{background:rgba(0,234,255,.16);box-shadow:0 0 24px rgba(0,234,255,.1)} .unlock-btn:active{transform:scale(.985)} .unlock-btn:disabled{opacity:.55;cursor:not-allowed}
+.unlock-status{min-height:20px;margin-top:10px;color:#79e9cf;font-size:13px}
+@keyframes pulse{50%{opacity:.35;transform:scale(.75)}}
+@keyframes float{50%{transform:translateY(-7px)}}
+@media(max-width:600px){
+  .app{width:100%;padding:30px 14px 42px;margin:0 auto;text-align:center}
+  .badge{max-width:100%;justify-content:center;font-size:11px;letter-spacing:1px;padding:8px 12px}
+  .logo{width:132px;height:132px;border-radius:32px;margin:22px auto 26px;font-size:68px!important}
+  .key{transform:scale(.68) rotate(-42deg)}
+  h1{font-size:clamp(30px,8.5vw,42px);letter-spacing:-1px;overflow-wrap:anywhere}
+  .brand{margin-top:14px;font-size:clamp(20px,5.5vw,28px);overflow-wrap:anywhere}
+  .card{width:100%;margin:34px auto 0;padding:24px 14px 22px;border-radius:22px}
+  .available{line-height:1.12;overflow-wrap:anywhere}
+  .prompt{line-height:1.45}
+  .generate{width:100%;height:70px;margin-top:25px;border-radius:16px;letter-spacing:.5px}
+  .result{width:100%;padding:18px 14px;letter-spacing:1px;overflow-wrap:anywhere}
+  .actions{width:100%;gap:8px}
+  .small{width:100%;min-width:0;padding:14px 12px}
+  .unlock-box{width:100%;padding:20px 13px}
+  .features{gap:8px}
+  .feature{font-size:11px;padding:8px 10px}
+  .footer{padding:0 8px;line-height:1.5}
+  .wait-card{padding:30px 16px 24px;border-radius:24px}
+  .wait-text{font-size:16px;line-height:1.4}
+}
+@media(max-width:360px){
+  .app{padding-left:10px;padding-right:10px}
+  .card{padding-left:11px;padding-right:11px}
+  .generate{font-size:21px}
+  .unlock-title{font-size:19px}
+}
+
+.loading-card{overflow:hidden}
+
+.loading-percent{margin:20px auto 16px;color:var(--green);font-size:32px;line-height:1;font-weight:950}
+.progress-track{width:min(430px,100%);height:14px;margin:0 auto;overflow:hidden;border:1px solid rgba(0,245,168,.28);border-radius:999px;background:rgba(255,255,255,.055)}
+.progress-fill{width:0%;height:100%;border-radius:999px;background:linear-gradient(90deg,#00bb48,#00f5a8,#00eaff);box-shadow:0 0 12px rgba(0,245,168,.35)}
+.loading-status{margin-top:15px;color:#79e9cf;font-size:14px;font-weight:700}
+
+/* Lightweight UI polish */
+.card{transition:box-shadow .22s ease,border-color .22s ease}
+.card:hover{border-color:rgba(0,245,168,.30);box-shadow:inset 0 1px rgba(255,255,255,.05),0 25px 70px rgba(0,0,0,.4),0 0 28px rgba(0,245,168,.045)}
+.generate,.small,.unlock-btn,.key-input{transition:background .18s ease,border-color .18s ease,box-shadow .18s ease,transform .12s ease}
+.result{
+  position:relative;
+  padding:20px 54px 20px 18px;
+  background:linear-gradient(180deg,rgba(0,245,168,.055),rgba(0,0,0,.20)),#020906;
+  box-shadow:inset 0 1px rgba(255,255,255,.035);
+}
+.result::before{
+  content:"ACCESS KEY";
+  display:block;
+  margin-bottom:8px;
+  color:#79e9cf;
+  font-size:10px;
+  letter-spacing:2px;
+  font-weight:800;
+}
+.actions{gap:10px}
+.small{min-width:150px}
+.unlock-box{
+  box-shadow:inset 0 1px rgba(255,255,255,.035);
+}
+.key-input::placeholder{color:#6f8a86}
+.key-input{caret-color:var(--green)}
+.generate:disabled,.unlock-btn:disabled,.small:disabled{opacity:.55;cursor:not-allowed}
+
+
+
+/* RED / BLACK GAMING EDITION */
+:root{--green:#ff304f;--cyan:#ff8a9b;--white:#fff2f4;--muted:#c29da4}
+html,body{background:#080306;color:var(--white)}
+body{background:radial-gradient(ellipse at 50% 0%,#3a0a17 0%,#10050a 36%,#070306 76%);}
+body::before{opacity:.12;background-image:linear-gradient(rgba(255,48,79,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(255,48,79,.09) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,black,transparent 88%)}
+.glow{filter:blur(100px)}.glow.one{background:rgba(255,30,70,.24)}.glow.two{background:rgba(255,75,95,.16)}
+.red-bottom-effect{background:rgba(255,15,55,.24);filter:blur(95px)}
+.wait-page,.second-wait-page{background:radial-gradient(ellipse at 50% 20%,rgba(255,35,72,.18),transparent 45%),linear-gradient(145deg,#13050a,#070306 65%,#18050b)}
+.wait-card{position:relative;width:min(520px,100%);padding:42px 26px 32px;border:1px solid rgba(255,70,96,.38);border-radius:28px;background:linear-gradient(145deg,rgba(36,9,17,.96),rgba(12,5,9,.96));box-shadow:0 30px 90px rgba(0,0,0,.65),0 0 55px rgba(255,30,70,.10),inset 0 1px rgba(255,255,255,.08);overflow:hidden}
+.wait-card::before{content:"";position:absolute;left:0;top:0;width:100%;height:4px;background:linear-gradient(90deg,transparent,#ff304f,#ff9aa9,transparent);background-size:200% 100%;animation:scanline 2.8s linear infinite}
+.loading-kicker{display:flex;align-items:center;justify-content:center;gap:9px;flex-wrap:wrap;margin-bottom:30px;color:#ffdce2;font-size:11px;font-weight:900;letter-spacing:2px}
+.loading-live{padding:5px 8px;border:1px solid rgba(255,48,79,.45);border-radius:6px;color:#ff8799;background:rgba(255,48,79,.08);font-size:9px;letter-spacing:1.3px}
+.wait-icon{width:92px;height:92px;border-radius:27px;font-size:43px;background:linear-gradient(145deg,#ff6a7f,#ed123c 70%,#a8072a);box-shadow:0 12px 35px rgba(255,20,60,.3),inset 0 1px rgba(255,255,255,.35);animation:iconPulse 2.2s ease-in-out infinite}
+.wait-title{color:#fff;font-size:clamp(24px,5.5vw,36px);letter-spacing:-.7px;line-height:1.1;text-shadow:0 0 24px rgba(255,48,79,.22)}
+.wait-text{margin-top:13px;color:#cdaab1;font-size:15px;line-height:1.6}
+.loading-percent{margin:28px auto 16px;color:#ff526b;font-size:36px;text-shadow:0 0 22px rgba(255,48,79,.35)}
+.progress-track{height:12px;border:1px solid rgba(255,80,105,.35);background:#210912;box-shadow:inset 0 2px 5px rgba(0,0,0,.5)}
+.progress-fill{background:linear-gradient(90deg,#a8072a,#ff304f,#ff9aa9);box-shadow:0 0 18px rgba(255,48,79,.55);position:relative;overflow:hidden}
+.progress-fill::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.45),transparent);animation:progressShine 1.3s linear infinite}
+.loading-status{color:#ff9aa9;font-size:12px;letter-spacing:.8px}
+.app{padding-top:45px}
+.badge{border:1px solid rgba(255,65,94,.42);background:rgba(255,48,79,.09);color:#ffd9df;box-shadow:0 8px 30px rgba(0,0,0,.18);letter-spacing:1.7px}
+.badge-mark{margin-left:3px;padding:4px 7px;border-radius:5px;background:#ff304f;color:white;font-size:10px;letter-spacing:1px}
+.dot{background:#ff536d;box-shadow:0 0 12px #ff304f}
+.logo{position:relative;width:164px;height:164px;margin:26px auto 30px;border-radius:42px;background:linear-gradient(145deg,#ff657d 0%,#f01943 55%,#8f0927 100%);border:1px solid rgba(255,255,255,.24);box-shadow:0 20px 45px rgba(0,0,0,.35),0 0 55px rgba(255,30,70,.25),inset 0 1px rgba(255,255,255,.35);animation:float 4s ease-in-out infinite}
+.logo::after{content:"RG";position:absolute;right:-12px;bottom:-10px;padding:7px 10px;border:2px solid #16050a;border-radius:10px;background:#fff0f3;color:#a8072a;font-size:14px;font-weight:1000;letter-spacing:1px;box-shadow:0 5px 18px #0008}
+.key{background:#fff0f3;filter:drop-shadow(0 6px 6px #76071e)}.key:before{background:#fff0f3;border-color:#ffb7c3}.key:after{background:linear-gradient(90deg,#fff0f3 0 43%,transparent 43% 58%,#fff0f3 58% 100%)}
+h1{font-size:clamp(30px,6.4vw,66px);letter-spacing:-2.3px;text-shadow:0 6px 30px rgba(255,30,70,.18)}
+.brand{margin-top:16px;color:#ff627a;font-size:clamp(21px,3.8vw,38px);letter-spacing:2px;text-shadow:0 0 26px rgba(255,48,79,.22)}.brand span{color:#fff2f4}
+.card{position:relative;margin-top:40px;padding:34px 24px 30px;border:1px solid rgba(255,65,94,.34);border-radius:27px;background:linear-gradient(145deg,rgba(32,8,15,.94),rgba(12,5,9,.94));box-shadow:0 30px 80px rgba(0,0,0,.38),inset 0 1px rgba(255,255,255,.06)}
+.card::before{content:"";position:absolute;top:0;left:22px;right:22px;height:1px;background:linear-gradient(90deg,transparent,rgba(255,143,160,.8),transparent)}
+.card-kicker{margin-bottom:12px;color:#ff8b9d;font-size:11px;font-weight:900;letter-spacing:2.8px}
+.available{color:#fff;font-size:clamp(27px,4.5vw,48px);letter-spacing:-1px;text-shadow:0 0 28px rgba(255,48,79,.16)}
+.prompt{margin-top:10px;color:#cdaab1;font-size:clamp(15px,2vw,19px)}
+.generate{position:relative;isolation:isolate;overflow:hidden;height:78px;margin-top:30px;border:1px solid #ff8a9b;border-radius:17px;background:linear-gradient(110deg,#b6092d,#ff304f 48%,#c70b31);color:#fff;font-size:clamp(21px,3.3vw,32px);letter-spacing:1.5px;text-shadow:0 2px 8px #7d061d;box-shadow:0 12px 28px rgba(255,20,60,.24),inset 0 1px rgba(255,255,255,.3);transition:transform .18s,box-shadow .18s,filter .18s}
+.generate::before{content:"";position:absolute;z-index:-1;top:0;left:-120%;width:70%;height:100%;transform:skewX(-22deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.26),transparent);transition:left .6s}
+.generate:hover{filter:brightness(1.1);box-shadow:0 15px 36px rgba(255,20,60,.34),inset 0 1px rgba(255,255,255,.35)}.generate:hover::before{left:140%}.generate:active{transform:scale(.985)}
+.result{border:1px solid rgba(255,75,105,.55);border-radius:16px;background:linear-gradient(145deg,rgba(255,48,79,.12),rgba(15,5,9,.9));color:#fff2f4;box-shadow:0 12px 28px rgba(0,0,0,.2),inset 0 1px rgba(255,255,255,.06)}.result::before{color:#ff899b}
+.small{border:1px solid rgba(255,115,138,.55);border-radius:12px;background:linear-gradient(145deg,#4a0c1c,#210711);color:#ffe7eb;box-shadow:0 8px 20px rgba(0,0,0,.25)}.small:hover{background:linear-gradient(145deg,#70102a,#310914);box-shadow:0 0 24px rgba(255,48,79,.18)}
+.status,.unlock-status{color:#ff9aaa}
+.unlock-box{border:1px solid rgba(255,65,94,.38);border-radius:18px;background:linear-gradient(145deg,rgba(255,48,79,.08),rgba(10,4,8,.3))}
+.unlock-title{color:#ff8a9b}.unlock-text{color:#cdaab1}
+.key-input{border:1px solid rgba(255,65,94,.4);background:#10050a;color:#fff2f4}.key-input:focus{border-color:#ff536d;box-shadow:0 0 20px rgba(255,48,79,.16)}.key-input::placeholder{color:#98727a}
+.unlock-btn{border:1px solid #ff647d;background:linear-gradient(110deg,#9e0929,#f02548,#a8092b);color:#fff;box-shadow:0 8px 24px rgba(255,20,60,.18)}.unlock-btn:hover{background:linear-gradient(110deg,#bf0b34,#ff3d5c,#c00b32);box-shadow:0 0 25px rgba(255,48,79,.2)}
+.footer{margin-top:28px;color:#c0808d;font-weight:900;letter-spacing:2px}.footer-line{display:inline-block;width:30px;height:1px;vertical-align:middle;margin:0 8px;background:linear-gradient(90deg,transparent,#ff526b)}.footer-line:last-child{transform:scaleX(-1)}.footer-sub{margin-top:7px;color:#70404b;font-size:9px;letter-spacing:3px}
+@keyframes scanline{to{background-position:200% 0}}@keyframes progressShine{to{transform:translateX(220%)}}@keyframes iconPulse{50%{transform:translateY(-4px);box-shadow:0 16px 42px rgba(255,20,60,.42),inset 0 1px rgba(255,255,255,.35)}}
+@media(max-width:600px){.app{padding:26px 14px 38px}.logo{width:126px;height:126px;border-radius:31px;margin:21px auto 24px}.logo::after{right:-8px;bottom:-7px;font-size:11px;padding:5px 7px}.key{transform:scale(.66) rotate(-42deg)}h1{font-size:clamp(29px,8vw,39px);letter-spacing:-1.2px}.brand{margin-top:12px;letter-spacing:1.3px}.card{margin-top:29px;padding:26px 14px 24px;border-radius:22px}.generate{height:68px;margin-top:24px;font-size:clamp(20px,5.8vw,25px);border-radius:14px}.wait-card{padding:30px 17px 25px;border-radius:23px}.loading-kicker{margin-bottom:24px;font-size:10px;letter-spacing:1.3px}.wait-icon{width:78px;height:78px;border-radius:23px;margin-bottom:20px}.wait-title{font-size:clamp(23px,6.4vw,31px)}.wait-text{font-size:14px}.loading-percent{font-size:32px}.card-kicker{font-size:10px;letter-spacing:2px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+
+/* Final mobile layout: preserve the original lower panel position while fitting the main controls on one screen. */
+.features{display:none!important}
+@media(max-width:600px){
+  .app{padding:16px 14px 18px !important;min-height:100svh}
+  .badge{padding:6px 11px;font-size:11px;letter-spacing:1.2px}
+  .logo{width:100px !important;height:100px !important;border-radius:26px !important;margin:13px auto 15px !important}
+  .logo::after{right:-7px;bottom:-6px;font-size:10px;padding:4px 6px}
+  h1{font-size:clamp(25px,7vw,32px) !important;letter-spacing:-1.1px !important;line-height:1.06}
+  .brand{margin-top:8px !important;font-size:clamp(18px,5vw,24px) !important;letter-spacing:1px !important}
+  .card{margin-top:29px !important;padding:19px 13px 17px !important;border-radius:22px !important}
+  .card-kicker{margin-bottom:8px !important;font-size:9px !important;letter-spacing:2px !important}
+  .available{font-size:clamp(23px,6.4vw,30px) !important;letter-spacing:-.6px}
+  .prompt{margin-top:7px !important;font-size:14px !important;line-height:1.3}
+  .generate{height:58px !important;margin-top:17px !important;border-radius:14px !important;font-size:clamp(19px,5.5vw,23px) !important}
+  .footer{margin-top:14px !important;font-size:12px}
+  .footer-sub{margin-top:4px}
+}
+@media(max-height:760px) and (max-width:600px){
+  .app{padding-top:9px !important;padding-bottom:10px !important}
+  .logo{width:86px !important;height:86px !important;margin-top:8px !important;margin-bottom:11px !important}
+  .card{margin-top:25px !important;padding-top:16px !important;padding-bottom:13px !important}
+  .generate{height:52px !important;margin-top:13px !important}
+  .footer{margin-top:9px !important}
+}
+</style>
+
+<style>
+/* Added lower-page content only; the existing access panel spacing remains unchanged. */
+.lower-extra{width:min(92%,640px);margin:44px auto 30px;position:relative;z-index:1;color:#ffe8ed;font-family:inherit}
+.lower-extra .lower-heading{text-align:center;font-size:clamp(18px,4.8vw,23px);font-weight:800;letter-spacing:1.5px;margin:0 0 8px;color:#ff5875;text-transform:uppercase}
+.lower-extra .lower-sub{text-align:center;color:#caaab2;font-size:14px;line-height:1.55;margin:0 auto 20px;max-width:420px}
+.lower-extra .lower-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.lower-extra .lower-item{border:1px solid rgba(255,85,118,.25);background:linear-gradient(145deg,rgba(64,7,21,.72),rgba(12,4,8,.9));border-radius:16px;padding:16px 10px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.lower-extra .lower-icon{font-size:25px;display:block;margin-bottom:8px}
+.lower-extra .lower-item strong{display:block;color:#fff;font-size:13px;margin-bottom:6px}
+.lower-extra .lower-item span:last-child{display:block;color:#c7aab1;font-size:11px;line-height:1.45}
+.lower-extra .lower-note{margin-top:16px;border:1px solid rgba(255,85,118,.22);border-radius:16px;padding:15px 16px;text-align:center;background:rgba(20,4,10,.62);color:#c9aab2;font-size:12px;line-height:1.6}
+.lower-extra .lower-note b{color:#ff7089;letter-spacing:1px}
+@media(max-width:380px){.lower-extra .lower-grid{gap:7px}.lower-extra .lower-item{padding:13px 6px}.lower-extra .lower-item strong{font-size:12px}.lower-extra .lower-item span:last-child{font-size:10px}}
+</style>
+</head>
+<body>
+<div class="glow one"></div><div class="glow two"></div><div class="red-bottom-effect"></div>
+
+<section class="wait-page" id="waitPage">
+  <div class="wait-card loading-card">
+    <div class="loading-kicker"><span class="dot"></span> RG GAMER BOY FF <span class="loading-live">INITIALIZING</span></div>
+    <div class="wait-icon">⚡</div>
+    <div class="wait-title">GETTING THINGS READY</div>
+    <div class="wait-text">Preparing your key generator experience</div>
+    <div class="loading-percent" id="loadingPercent">0%</div>
+    <div class="progress-track">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <div class="loading-status" id="loadingStatus">Loading... 0%</div>
+  </div>
+</section>
+
+
+<section class="second-wait-page" id="secondWaitPage">
+  <div class="wait-card loading-card">
+    <div class="loading-kicker"><span class="dot"></span> RG GAMER BOY FF <span class="loading-live">PLEASE WAIT</span></div>
+    <div class="wait-icon">⚡</div>
+    <div class="wait-title">ALMOST THERE</div>
+    <div class="wait-text" id="secondWaitText">Preparing your key...</div>
+    <div class="loading-percent" id="secondLoadingPercent">0%</div>
+    <div class="progress-track"><div class="progress-fill" id="secondProgressFill"></div></div>
+    <div class="loading-status" id="secondLoadingStatus">Loading... 0%</div>
+  </div>
+</section>
+
+<main class="app">
+  <div class="badge"><span class="dot"></span> KEY GENERATOR <span class="badge-mark">RG / FF</span></div>
+  <div class="logo" style="font-size:88px;">🔑</div>
+  <h1>RG GAMER BOY FF KEYS</h1>
+  <div class="brand">RG GAMER BOY <span>FF</span></div>
+
+  <section class="card">
+    <div class="card-kicker">YOUR ACCESS PANEL</div>
+    <div class="available">GENERATE YOUR KEY</div>
+    <div class="prompt">Tap below to create your access key</div>
+    <button class="generate" id="generateBtn">GENERATE KEY</button>
+    <div class="result" id="result"></div>
+    <div class="actions" id="actions"><button class="small" id="copyBtn">COPY KEY</button></div>
+    <div class="unlock-box" id="unlockBox">
+      <div class="unlock-title">🔓 PASTE KEY & UNBLOCK</div>
+      <div class="unlock-text">Enter your access key below to continue.</div>
+      <input class="key-input" id="keyInput" type="text" placeholder="Enter your access key" autocomplete="off">
+      <button class="unlock-btn" id="unlockBtn">GET UNLOCK</button>
+      <div id="hcaptchaUnlock" style="display:none;margin-top:16px;text-align:center">
+        <p style="color:#cdaab1;font-size:14px;line-height:1.5">Complete the CAPTCHA to continue to the main website.</p>
+        <div class="h-captcha" data-sitekey="75a41e52-548a-44c2-af8c-43ac16a25fa0" data-callback="onHcaptchaUnlockVerified" data-expired-callback="onHcaptchaUnlockExpired" data-error-callback="onHcaptchaUnlockError"></div>
+      </div>
+      <div class="unlock-status" id="unlockStatus"></div>
+    </div>
+    <div class="status" id="status"></div>
+  </section>
+  <div class="footer"><span class="footer-line"></span> RG GAMER BOY FF <span class="footer-line"></span><div class="footer-sub">KEY GENERATOR</div></div>
+
+
+<section class="lower-extra" aria-label="Key generator guide">
+  <h2 class="lower-heading">HOW IT WORKS</h2>
+  <p class="lower-sub">A simple guide to using your RG GAMER BOY FF key generator.</p>
+  <div class="lower-grid">
+    <div class="lower-item"><span class="lower-icon">🔑</span><strong>01 · GENERATE</strong><span>Tap Generate Key to create your access key.</span></div>
+    <div class="lower-item"><span class="lower-icon">📋</span><strong>02 · COPY</strong><span>Copy the displayed key when prompted.</span></div>
+    <div class="lower-item"><span class="lower-icon">✓</span><strong>03 · VERIFY</strong><span>Paste the key into the verification field.</span></div>
+  </div>
+  <div class="lower-note"><b>RG GAMER BOY FF</b><br>KEY GENERATOR · Follow the on-screen steps to continue.</div>
+
+</section>
+<style>
+.lower-extra{width:min(92%,640px);margin:22px auto 20px;position:relative;z-index:1;color:#ffe8ed;font-family:inherit}
+.lower-extra .lower-heading{text-align:center;font-size:clamp(18px,4.8vw,23px);font-weight:800;letter-spacing:1.5px;margin:0 0 8px;color:#ff5875;text-transform:uppercase}
+.lower-extra .lower-sub{text-align:center;color:#caaab2;font-size:14px;line-height:1.5;margin:0 auto 14px;max-width:420px}
+.lower-extra .lower-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.lower-extra .lower-item{border:1px solid rgba(255,85,118,.25);background:linear-gradient(145deg,rgba(64,7,21,.72),rgba(12,4,8,.9));border-radius:16px;padding:13px 9px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+.lower-extra .lower-icon{font-size:23px;display:block;margin-bottom:6px}
+.lower-extra .lower-item strong{display:block;color:#fff;font-size:12px;margin-bottom:5px}
+.lower-extra .lower-item span:last-child{display:block;color:#c7aab1;font-size:10px;line-height:1.4}
+.lower-extra .lower-note{margin-top:12px;border:1px solid rgba(255,85,118,.22);border-radius:14px;padding:11px 12px;text-align:center;background:rgba(20,4,10,.62);color:#c9aab2;font-size:11px;line-height:1.5}
+.lower-extra .lower-note b{color:#ff7089;letter-spacing:1px}
+@media(max-width:600px){.lower-extra{margin-top:18px;margin-bottom:18px}.lower-extra .lower-sub{font-size:12px;margin-bottom:11px}.lower-extra .lower-grid{gap:7px}.lower-extra .lower-item{padding:11px 6px;border-radius:13px}.lower-extra .lower-icon{font-size:20px}.lower-extra .lower-item strong{font-size:11px}.lower-extra .lower-item span:last-child{font-size:9px}.lower-extra .lower-note{margin-top:10px;padding:10px}}
+</style>
+</main>
+
+<script>
+const waitPage=document.getElementById("waitPage");
+const loadingPercent=document.getElementById("loadingPercent");
+const progressFill=document.getElementById("progressFill");
+const loadingStatus=document.getElementById("loadingStatus");
+
+const waitDuration=10000;
+const loadingStart=Date.now();
+
+function updateLoading(){
+  const elapsed=Date.now()-loadingStart;
+  const progress=Math.min(100, Math.floor((elapsed/waitDuration)*100));
+
+  loadingPercent.textContent=progress+"%";
+  progressFill.style.width=progress+"%";
+  loadingStatus.textContent=progress<100
+    ? "Loading... "+progress+"%"
+    : "✓ Loading complete!";
+
+  if(progress<100){
+    requestAnimationFrame(updateLoading);
+  }else{
+    setTimeout(function(){
+      waitPage.style.display="none";
+      window.scrollTo({top:0,left:0,behavior:"smooth"});
+    },250);
+  }
+}
+
+updateLoading();
+
+const generateBtn=document.getElementById("generateBtn");
+const result=document.getElementById("result");
+const actions=document.getElementById("actions");
+const copyBtn=document.getElementById("copyBtn");
+const status=document.getElementById("status");
+const chars="ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+
+function makeKey(){
+  let key="RGFF-";
+  for(let group=0;group<3;group++){
+    for(let i=0;i<5;i++){
+      const randomIndex=Math.floor(Math.random()*chars.length);
+      key+=chars[randomIndex];
+    }
+    if(group<2)key+="-";
+  }
+  return key;
+}
+
+const KEY_STORE="RG_GAMER_BOY_FF_USED_KEYS";
+
+function getUsedKeys(){
+  try{return JSON.parse(localStorage.getItem(KEY_STORE)||"[]");}
+  catch(e){return [];}
+}
+
+function saveUsedKey(key){
+  const used=getUsedKeys();
+  if(!used.includes(key)){
+    used.push(key);
+    localStorage.setItem(KEY_STORE,JSON.stringify(used));
+  }
+}
+
+generateBtn.addEventListener("click",function(){
+  generateBtn.disabled=true;
+  runSecondWait("Generating your key...",function(){
+    secondWaitPage.style.display="none";
+    const key=makeKey();
+    result.innerHTML="<span style='color:#79e9cf;font-size:12px;display:block;margin-bottom:8px;letter-spacing:2px'>GENERATED ACCESS KEY</span>"+key;
+    result.style.display="block";
+    actions.style.display="flex";
+    status.textContent="✓ Key generated. It can be used only once.";
+    generateBtn.disabled=false;
+    generateBtn.textContent="GENERATE NEW KEY";
+  });
+});
+
+const unlockBox=document.getElementById("unlockBox");
+const keyInput=document.getElementById("keyInput");
+const unlockBtn=document.getElementById("unlockBtn");
+const unlockStatus=document.getElementById("unlockStatus");
+
+const secondWaitPage=document.getElementById("secondWaitPage");
+const secondLoadingPercent=document.getElementById("secondLoadingPercent");
+const secondProgressFill=document.getElementById("secondProgressFill");
+const secondLoadingStatus=document.getElementById("secondLoadingStatus");
+const secondWaitText=document.getElementById("secondWaitText");
+
+/* Change this to your own destination website. */
+const UNLOCK_URL="https://rgsouravbasak-del.github.io/RG-GAMER-BOY-FF-APP/";
+
+function runSecondWait(text,onDone){
+  secondWaitPage.style.display="grid";
+  secondWaitText.textContent=text;
+  secondLoadingPercent.textContent="0%";
+  secondProgressFill.style.width="0%";
+  secondLoadingStatus.textContent="Loading... 0%";
+  const start=Date.now(), duration=10000;
+  function tick(){
+    const p=Math.min(100,Math.floor((Date.now()-start)/duration*100));
+    secondLoadingPercent.textContent=p+"%";
+    secondProgressFill.style.width=p+"%";
+    secondLoadingStatus.textContent=p<100 ? "Loading... "+p+"%" : "✓ Loading complete!";
+    if(p<100) setTimeout(tick,50);
+    else setTimeout(onDone,250);
+  }
+  tick();
+}
+
+copyBtn.addEventListener("click",async function(){
+  const key=result.textContent.replace("GENERATED ACCESS KEY","").trim();
+  try{await navigator.clipboard.writeText(key);}
+  catch(error){
+    const textarea=document.createElement("textarea");
+    textarea.value=key; document.body.appendChild(textarea);
+    textarea.select(); document.execCommand("copy"); textarea.remove();
+  }
+  status.textContent="✓ Key copied to clipboard!";
+  runSecondWait("Preparing key verification...",function(){
+    secondWaitPage.style.display="none";
+    unlockBox.style.display="block";
+    keyInput.focus();
+    unlockStatus.textContent="✓ You can now paste your generated key.";
+  });
+});
+
+unlockBtn.addEventListener("click",function(){
+  const entered=keyInput.value.trim();
+  const generated=result.textContent.replace("GENERATED ACCESS KEY","").trim();
+
+  if(!entered){
+    unlockStatus.textContent="Please paste your key first.";
+    return;
+  }
+
+  if(entered !== generated){
+    unlockStatus.textContent="✕ Invalid key. Please paste the generated key.";
+    return;
+  }
+
+  const usedKeys=getUsedKeys();
+  if(usedKeys.includes(entered)){
+    unlockStatus.textContent="✕ Invalid key. This key has already been used.";
+    return;
+  }
+
+
+  unlockBtn.disabled=true;
+  unlockStatus.textContent="✓ Key verified. Complete the CAPTCHA below to continue.";
+  document.getElementById("hcaptchaUnlock").style.display="block";
+});
+
+function onHcaptchaUnlockVerified(token){
+  if(!token) return;
+  const entered=keyInput.value.trim();
+  const generated=result.textContent.replace("GENERATED ACCESS KEY","").trim();
+  if(!entered || entered!==generated || getUsedKeys().includes(entered)){
+    unlockStatus.textContent="✕ Key verification failed. Please check your key and try again.";
+    unlockBtn.disabled=false;
+    document.getElementById("hcaptchaUnlock").style.display="none";
+    return;
+  }
+  saveUsedKey(entered);
+  unlockStatus.textContent="✓ CAPTCHA complete. Opening the main website...";
+  window.location.href=UNLOCK_URL;
+}
+function onHcaptchaUnlockExpired(){
+  unlockStatus.textContent="CAPTCHA expired. Please complete it again.";
+}
+function onHcaptchaUnlockError(){
+  unlockStatus.textContent="CAPTCHA could not load. Check your connection and try again.";
+  unlockBtn.disabled=false;
+}
+
+keyInput.addEventListener("keydown",function(e){
+  if(e.key==="Enter") unlockBtn.click();
+});
+</script>
+
+
+</body>
+</html>
